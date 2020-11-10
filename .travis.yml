@@ -13,7 +13,7 @@ before_script:
 script: export MAVEN_OPTS="-Xmx1024m" && mvn test --quiet
 jdk:
   - openjdk7
-  - oraclejdk8
+  - openjdk8
 notifications:
     email: false
 addons:
